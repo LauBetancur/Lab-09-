@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App FINAL VER</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="messages-general" id="messages-general"></div>
+        <div class="users-container">
+            <div class="user-chat user1">
+                <div class="user-info">
+                    <img src="https://i.pinimg.com/736x/82/6d/41/826d419d5fbd26167a4cdda8f21775c4.jpg" alt="Usuario 1">
+                </div>
+                <div class="input-container">
+                    <input type="text" class="message-input user1" data-user="user1" placeholder="user 1 ..." style="background-color: white;">
+                    <button class="send-btn user1" id="send-btn-user1" style="background-color: #ffa7d6;">Enviar</button>
+                </div>
+                
+            </div>
+            <div class="user-chat user2">
+                <div class="user-info">
+                    <img src="https://i.pinimg.com/564x/8a/79/25/8a79250d825cc99204ab14ea2e8e24e4.jpg" alt="Usuario 2">
+                </div>
+                <div class="input-container">
+                    
+                    <input type="text" class="message-input user2" data-user="user2" placeholder="user 2..." style="background-color: white;">
+                    <button class="send-btn user2" id="send-btn-user2" style="background-color: #d683ed;">Enviar</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
